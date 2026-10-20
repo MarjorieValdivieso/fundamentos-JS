@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eaeded;
+  margin: 0;
+}
+
+header {
+  background: #131921;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+header h1 { margin: 0; }
+#buscador { flex: 1; padding: 8px; }
+
+main { padding: 20px; }
+
+#listaProductos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.producto {
+  background: white;
+  width: 180px;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.producto button {
+  background: #ffd814;
+  border: none;
+  padding: 8px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/* Esta clase la agrego con classList */
+.agotado { opacity: 0.5; }
